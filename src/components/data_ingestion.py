@@ -12,7 +12,7 @@ from src.pipeline.training_pipeline import ModelTrainer
 from src.pipeline.prediction_pipeline import PredictPipeline
 
 
-path = 'data/images' 
+path = 'data' 
 
 @dataclass
 class DataIngestionConfig:
@@ -22,7 +22,7 @@ class DataIngestionConfig:
 
 @dataclass
 class DimensionsConfig:
-    EPOCHS = 100
+    EPOCHS = 50
     VAL_SUBSPLITS = 5
     BUFFER_SIZE = 500
     BATCH_SIZE = 32
