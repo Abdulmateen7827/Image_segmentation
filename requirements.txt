@@ -1,7 +1,9 @@
-# seaborn 
-streamlit
-pandas
-numpy
-matplotlib
+fastapi
+uvicorn
 tensorflow
-python==3.9
+numpy
+Pillow
+pillow-heif
+python-multipart
+pydantic
+requests
