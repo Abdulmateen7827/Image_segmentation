@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-tensorflow-cpu
+tensorflow-cpu==2.19.0
 numpy
 Pillow
 pillow-heif
