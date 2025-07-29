@@ -11,7 +11,7 @@ class_names = ['Bitterleaf', 'Efirin', 'Ewedu', 'amunututu', 'elegede',
                'soko ', 'tete ', 'ugu ', 'uziza leave', 'waterleaf']
 
 # Load your trained model
-model = tf.keras.models.load_model('notebook/faruq1.h5')
+model = tf.keras.models.load_model('notebook/faruqmobtest3000-1.h5')
 # img = '/Users/abdulmateen/Downloads/vegetables/amunututu/IMG_7766.JPG'
 def predict_single_image(model, image_bytes, class_names):
     """
