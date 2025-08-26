@@ -52,7 +52,10 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
-
+favor.ipynb
+model2_v2_1.h5
+model2_v2.h5
+gold_standard.json
 # Translations
 *.mo
 *.pot
